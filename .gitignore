@@ -1,0 +1,9 @@
+# Ignore the wifi config details
+/main/config/wifi_cfg.json
+
+# Example Module
+# Ignore contents of submodule directory  
+/main/watchdog
+# Except the .gitkeep to recreate the 'empty' directory.
+!/main/watchdog/.gitkeep
+
